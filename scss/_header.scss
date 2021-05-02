@@ -1,0 +1,44 @@
+.header{
+
+  .header-title{
+    font-family: $font-title;
+    font-size: $size-logo;
+    color: var(--color-primary);
+
+    span{
+      color: var(--color-secondary);
+    }
+  }
+
+  .header-slogan{
+    font-family: $font-title;
+    font-size: var(--size-slogan);
+    color: var(--color-primary);
+
+    span{
+      color: var(--color-secondary);
+    }
+  }
+
+  .header-parrafo{
+    font-family: $font-paragraph;
+    font-size: $size-paragraph;
+  }
+
+}
+
+@media (min-width:760px) {
+  .header-title, .header-slogan{
+    --color-primary: red;
+    --color-secondary: rgb(97, 233, 6);
+    --size-slogan: 70px;
+  }
+
+}
+
+
+
+
+
+
+

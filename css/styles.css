@@ -1,1 +1,39 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+:root {
+  --color-primary: #1D214E;
+  --color-secondary: #04D7A2;
+  --size-slogan: 40px;
+}
+
+.header .header-title {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  color: var(--color-primary);
+}
+
+.header .header-title span {
+  color: var(--color-secondary);
+}
+
+.header .header-slogan {
+  font-family: "Rubik", sans-serif;
+  font-size: var(--size-slogan);
+  color: var(--color-primary);
+}
+
+.header .header-slogan span {
+  color: var(--color-secondary);
+}
+
+.header .header-parrafo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+@media (min-width: 760px) {
+  .header-title, .header-slogan {
+    --color-primary: red;
+    --color-secondary: rgb(97, 233, 6);
+    --size-slogan: 70px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
